@@ -38,3 +38,51 @@ header {
         margin-bottom: 4.4rem;
     }
 }
+
+input, button {
+    padding: 1.2rem 1.8rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    font-size: 1.6rem;
+}
+
+input {
+    margin-bottom: 1.6rem;
+    border: 2px solid var(--border-primary);
+    color: var(--content-primary);
+}
+
+input:focus {
+    border-color: var(--color-brand);
+}
+
+input::placeholder {
+    color: var(--content-tertiary);
+}
+
+button {
+    background: var(--color-brand);
+    font-weight: 600;
+    color: var(--always-white);
+}
+
+button:hover {
+    background: var(--color-brand-hover);
+    transition: background .2s;
+}
+
+.items {
+    margin-top: 4rem;
+
+    .item {
+        background: var(--always-white);
+        margin-bottom: 1.2rem;
+        border-radius: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.2rem;
+        align-items: center;
+    }
+}
